@@ -1,0 +1,259 @@
+.comments__item {
+    border-bottom: #F5F5F5 2px solid;
+    margin: 0 0 32px 0;
+    font-family: 'GothaProLig', sans-serif;
+    font-size: 18px;
+    color: #221f1f;
+}
+
+.comments__item:last-child {
+    border-bottom: none;
+}
+
+.comments__img {
+    float: left;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+
+.comment__data {
+    display: block;
+    font-size: 14px;
+    color: #656464;
+    margin: 0 0 2px 0;
+}
+
+.comment__user-name {
+    display: block;
+    font-family: 'GothaProBol', sans-serif;
+    margin: 0 0 22px 0;
+}
+
+.comment__text {
+    display: inline-block;
+    margin: -16px 0 30px 0;
+    width: 700px;
+    line-height: 28px;
+}
+
+.comments__pagination {
+    text-align: center;
+    margin: -12px 99px 70px 0;
+}
+
+.pagination__list,
+.pagination__item,
+.pagination__link {
+    display: inline-block;
+    color: #221f1f;
+    font-family: 'GothaProLig', sans-serif;
+    font-size: 14px;
+}
+
+.pagination__info {
+    color: #656464;
+    margin: 0 20px 0 0;
+}
+
+.pagination__item {
+    margin: 0 9px 0 0;
+}
+
+.pagination__link {
+    font-family: 'GothaProBol', sans-serif;
+    vertical-align: middle;
+}
+.pagination__link:hover{
+    color: #ec1e79;
+    transition: none;
+}
+
+.pagination__link--activ {
+    color: #ec1e79;
+    background: #221f1f;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.icon-pagination__nav-right:before {
+    content: "\e908";
+}
+
+.icon-pagination__nav-left:before {
+    display: block;
+    content: "\e908";
+    transform: rotate(180deg);
+}
+
+.pagination__nav--end {
+    opacity: .30;
+    pointer-events: none;
+    cursor: default;
+}
+
+.form {
+    background: #F5F5F5;
+    float: left;
+    width: 560px;
+    padding: 48px 70px;
+    font-family: 'GothaProLig', sans-serif;
+    font-size: 14px;
+    color: #221f1f;
+    margin: 0 0 70px 0;
+}
+
+.form__title {
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 49px;
+    margin: -14px 0 9px 0;
+}
+
+.form__input {
+    width: 250px;
+    height: 50px;
+    padding: 0 0px 0 12px;
+}
+
+.form__row {
+    margin: 0 0 14px 0;
+}
+
+.form__elem {
+    margin: 0 17px 0 0;
+}
+
+.form__radio {
+    margin: 0 20px 0 0;
+}
+
+.form__radio:last-child {
+    margin: 0;
+}
+
+.form__radio-elem:checked {
+    color: #ec1e79;
+}
+
+.form__elem:last-child {
+    margin: 0;
+}
+
+.form__radios-title{
+    margin: -47px 0 6px 0;
+}
+
+input.form__radio-elem {
+    left: -9999px;
+    position: absolute;
+}
+
+.form__radio-name {
+    position: relative;
+    vertical-align: middle;
+}
+
+.form__radio-name::before{
+    content: '';
+    position: absolute;
+    display: block;
+    left: -27px;
+    right: 0;
+    height: 20px;
+    bottom: 0;
+    vertical-align: middle;
+    transform: translate(0%,8%);
+}
+
+.form__radio-elem-cercle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #b2b2b2;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+input.form__radio-elem:checked + .form__radio-elem-cercle{
+    border: 1px solid #ec1e79;
+}
+
+input.form__radio-elem:checked + .form__radio-elem-cercle:after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    background: #ec1e79;
+    border-radius: 50%;
+    transform: translate( 50%,10%);
+    vertical-align: middle;
+}
+
+input.form__radio-elem:checked  label.form__radio-name {
+    color: #ec1e79;
+}
+
+.form__big-text-input {
+    width: 533px;
+    height: 72px;
+    padding: 12px;
+    max-width: 533px;
+    min-width: 534px;
+    border-radius: 3px;
+}
+
+.form__fields {
+    float: left;
+}
+
+.form__elem,
+.form__radio,
+.form__radios,
+.form__control {
+    display: inline-block;
+}
+
+.form__elem-title {
+    display: block;
+}
+
+.form__control {
+    vertical-align: bottom;
+    left: 215px;
+    position: relative;
+}
+
+.form__submit {
+    text-align: center;
+    background: #27273E;
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form__submit:hover {
+    background: #ec1e79;
+    color: #fff;
+    transition: all 1.5s linear;
+}
+
+.form__submit:active {
+    background: #656464;
+    color: #fff;
+}
+
+.form__big-text-input:focus,
+.form__input:focus {
+    outline: #ec1e79 solid 1px;
+}

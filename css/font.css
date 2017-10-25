@@ -1,0 +1,124 @@
+/* Fonts */
+
+
+/* font-family: 'GothaProBol', sans-serif; */
+
+@font-face {
+    font-family: 'GothaProBol';
+    src: url('../fonts/GothaProBol/gothaprobol.eot');
+    src: url('../fonts/GothaProBol/gothaprobol.eot?#iefix') format('embedded-opentype'), url('../fonts/GothaProBol/gothaprobol.woff') format('woff'), url('../fonts/GothaProBol/gothaprobol.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/* font-family: 'GothaProLig', sans-serif; */
+
+@font-face {
+    font-family: 'GothaProLig';
+    src: url('../fonts/GothaProLig/gothaprolig.eot');
+    src: url('../fonts/GothaProLig/gothaprolig.eot?#iefix') format('embedded-opentype'), url('../fonts/GothaProLig/gothaprolig.woff') format('woff'), url('../fonts/GothaProLig/gothaprolig.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+/* font-family: 'GothaProLigIta', sans-serif; */
+
+@font-face {
+    font-family: 'GothaProLigIta';
+    src: url('../fonts/GothaProLigIta/gothaproligita.eot');
+    src: url('../fonts/GothaProLigIta/gothaproligita.eot?#iefix') format('embedded-opentype'), url('../fonts/GothaProLigIta/gothaproligita.woff') format('woff'), url('../fonts/gothaproligita/gothaproligita.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&subset=cyrillic');
+
+
+/*icon font*/
+
+/* font-family: 'icon-font'; */
+
+@font-face {
+    font-family: 'icon-font';
+    src: url('../fonts/icon-font/icomoon.eot');
+    src: url('../fonts/icon-font/icomoon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icon-font/icomoon.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+}
+
+/* font option*/
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icon-font';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+  
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+/* mod social icon*/
+
+.fs {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #dadada;
+    font-style: normal;
+}
+
+/* mod menu icon*/
+
+.ms{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 20px 0 0;  
+    font-style: normal;
+}
+
+.fs:hover {
+    color: #ec1e79;
+    transition: all 1.5s linear;
+}
+
+/* font class */
+
+/* .icon-pagination__nav-right:before {
+    content: "\e908";
+  }
+  .icon-pagination__nav-left:before {
+    content: "\e908";
+    transform: rotate(180deg);
+  }
+  .icon-menu-icon-back:before {
+    content: "\e905";
+  }
+  .icon-menu-icon-home:before {
+    content: "\e906";
+  }
+  .icon-menu-icon-price:before {
+    content: "\e907";
+  }
+  .icon-social-logo-email:before {
+    content: "\e900";
+  }
+  .icon-social-logo-fb:before {
+    content: "\e901";
+  }
+  .icon-social-logo-google:before {
+    content: "\e902";
+  }
+  .icon-social-logo-twitter:before {
+    content: "\e903";
+  }
+  .icon-social-logo-vk:before {
+    content: "\e904";
+  } */

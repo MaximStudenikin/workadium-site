@@ -1,0 +1,45 @@
+body{
+    background: url('../img/intro_img.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.intro__logo {
+    margin: 20px 0 20px 0;
+}
+
+.intro__container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.intro__container:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+}
+
+.intro__content{
+display: inline-block;
+vertical-align: middle;
+}
+
+.intro__btn{
+    display: block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ec1e79;
+    border: solid 3px #ec1e79;
+    padding: 14px 18px;
+}
+
+.intro__btn:hover{
+    background: #ec1e79;
+    color: #fff;
+}

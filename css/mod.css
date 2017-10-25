@@ -1,0 +1,8 @@
+.text__align--right {
+    text-align: right;
+}
+
+.elem__img--center {
+    margin: 0 auto;
+    display: block;
+}

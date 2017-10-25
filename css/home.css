@@ -1,0 +1,103 @@
+.article {
+    float: left;
+    position: relative;
+    width: 880px;
+    margin: -40px 0 0 0;
+    font-size: 18px;
+    font-family: 'GothaProLig', sans-serif;
+    line-height: 1.6;
+}
+
+.article__wrap {
+    width: 700px;
+}
+
+.article h1 {
+    position: absolute;
+    margin: 142px 0 0 65px;
+    font-size: 3rem;
+    font-family: 'GothaProBol', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+}
+
+.article h2 {
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 18px;
+    margin: -5px 0 25px 0;
+}
+
+.article ul{
+    list-style-type: disc;
+    list-style-position: outside;
+    margin: -15px 0 -10px 38px;
+}
+
+.article li {
+    color: #ec1e79;
+    margin: 0 0 8px 0;
+}
+
+.article span {
+    color: #27273E;;
+}
+
+.promo {
+    background: #27273E;
+    padding: 1px 0 1px 30px;
+    margin: 0 0 54px 0;
+}
+
+.promo p {
+    color: #fff;
+    font-family: 'GothaProLig', sans-serif;
+    font-size: 18px;
+    width: 620px;
+}
+
+.promo b {
+    font-family: 'GothaProBol', sans-serif;
+    color: #ec1e79;
+}
+
+.banners {
+    position: relative;
+    float: left;
+    width: 715px;
+    left: 17%;
+}
+
+.banners__title {
+    font-family: 'GothamPro', sans-serif;
+    font-size: 49px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.banners__item {
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+    margin: 32px 90px 15px -15px;
+    vertical-align: middle;
+}
+
+.banners__img{
+    opacity: .5;
+    filter: saturate(0);
+}
+
+.banners__img:hover{
+    filter: saturate(100%);
+    transition: all 1.5s linear;
+    opacity: 1;
+}
+
+.banners__item:nth-child(3n){
+    margin-right: 0;
+}
+
+.banners li:before{
+    display: none;
+}
