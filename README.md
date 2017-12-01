@@ -20,3 +20,5 @@ comments
 -Site Crossbracing Site
 -It is not implemented adaptive
 -Icon are implemented in iconic font
+
+Наставник Арсений Березин (https://github.com/b-ars07)
