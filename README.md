@@ -7,18 +7,18 @@ A corporate site for the invented company has been published here. Which was mad
 
 There are four pages
 
--intro
--about us
--prices
-comments
+1. intro
+2. about us
+3. prices
+4. comments
 
-* Important points.
+## Important points.
 
--Names of elements of the side on BEM metology
--Connected normalize
--On the page there is a feedback form and page navigation
--Site Crossbracing Site
--It is not implemented adaptive
--Icon are implemented in iconic font
+1. Names of elements of the side on BEM metology
+2. Connected normalize
+3. On the page there is a feedback form and page navigation
+4. Site Crossbracing Site
+5. It is not implemented adaptive
+6. Icon are implemented in iconic font
 
 Наставник Арсений Березин (https://github.com/b-ars07)
